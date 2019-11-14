@@ -1,0 +1,32 @@
+*{
+    text-decoration: none;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    border-bottom:2px solid #2196EF;
+    
+}
+.attribut{
+    color: black;
+}
+.attribut:hover{
+    color: #2196EF;
+}
+.sub{
+    padding: 0 50px;
+    border: white 2px solid;
+    
+}
+.sub-menu{
+    list-style-type: none;
+    display: none;
+    padding: 20px 10px;
+    
+
+}
+.sub:hover .sub-menu{
+    display: block;
+    border: #2196EF 2px solid;
+
+}
